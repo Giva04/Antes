@@ -46,6 +46,8 @@ html {
   }
   .bill input {
     flex: 3;
+    color: rgb(0, 153, 255);
+    font-weight: bold;
   }
   
   input[type="number"] {
@@ -56,16 +58,19 @@ html {
     border-radius: 0.5rem;
     padding: 0.8rem 0 0.8rem 1rem;
     box-shadow: inset 0 2px 2px lightgray;
+    
   }
   
   .space-between {
     display: flex;
     justify-content: space-between;
+    
   }
   
   .total {
     font-size: 2rem;
     font-weight: bolder;
+    color:rgba(255, 0, 0, 0.692);
   }
   
   .range {
@@ -76,6 +81,7 @@ html {
     background: #eee;
     border-radius: 0.3rem;
     outline-color: #5bceae;
+   
   }
   
   .range::-webkit-slider-thumb {
@@ -85,6 +91,7 @@ html {
     border-radius: 50%;
     background: #3dc0c0;
     cursor: pointer;
+    
   }
   
   .range::-moz-range-thumb {
@@ -94,8 +101,10 @@ html {
     background: #3dc0c0;
     cursor: pointer;
     border: 0;
+    
   }
   
   .range::-moz-focus-outer {
     border: 0;
+    
   }
