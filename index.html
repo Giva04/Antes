@@ -12,7 +12,7 @@
     <title>Calculadora de Gorjetas</title>
   </head>
   <body>
-    <main >
+    <main oninput="update()">
       <h1>Calculadora de Gorjetas</h1>
       <section>
         <div class="bill">
@@ -20,7 +20,7 @@
           <input 
             type="number" 
             placeholder="Your bill" 
-            id="yourBill"  />
+            id="yourBill"/>
         </div>
         <div>
           <div class="space-between">
@@ -44,7 +44,7 @@
         <div>
           <div class="space-between">
             <label for="splitInput">Dividir</label>
-            <span id="splitValue">1</span>
+            <span id="splitValue">Pessoas</span>
           </div>
           <input
             type="range"
@@ -56,7 +56,7 @@
           />
         </div>
         <div class="space-between">
-          <span>Cobrar Cada</span>
+          <span>Conta de Cada Pessoa</span>
           <span id="billEach"></span>
         </div>
       </section>
